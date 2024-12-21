@@ -8,7 +8,7 @@ int calc_fat(int);
 
 int main()
 {
-    printf("\n Este programa calcula o fatorial.");
+    printf("\n Este programa calcula o fatorial.");//Modificado para nova versão
     int numero = 13;  //Modifiquei para para 13
     int num_fat = calc_fat(numero);
     printf("\nO fatorial de %d eh: %d", numero , num_fat);
